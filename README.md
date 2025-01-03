@@ -39,10 +39,10 @@ This project explores the implementation of the SHA-256 cryptographic hash funct
 - **`sha256.c` & `sha256.h`**: Core SHA-256 logic for kernel and user space.  
 - **`hello.c`**: Demonstrates SHA-256 hashing via system call in user space.  
 - **`sysproc.c`**: Implements the `sys_hash256` system call.  
-- **Makefiles**: Updated for kernel and user builds to include SHA-256 functionality.    
+- **Makefiles**: Updated for kernel and user builds to include SHA-256 functionality.            
 ‎ 
-To run the code in VS Code, run the command `wsl --install` in terminal then `make` and after that `make qemu`. Than run the program
-For more help view the report attached.‎  
+
+‎To run the code in VS Code, run the command `wsl --install` in terminal then `make` and after that `make qemu`, then run the program. For more help view the report attached.‎  
 
 ‎‎   
 
